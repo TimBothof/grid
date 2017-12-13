@@ -2,45 +2,91 @@
 			background-image: url(bg.png);
 			font-family: Tahoma;
 		}
-		
+    header {
+
+		}
+		#po{
+			padding-top: 25px;
+			text-align: center;
+
+		}
 		#frame {
 			background-color: rgba(255,200,200,0.3);
+			width: 1021px;
+			height: 606px;
+			margin: auto;
 		}
-		
+
 		header nav ul {
 			list-style-type: none;
 			background-color: rgba(255,255,200,0.3);
-		}
-		
+			overflow: hidden;
+ 		}
+
 		#content {
-			
+
+			flex-direction: row;
+
 		}
-		
+
 		nav li {
-			
+      list-style-type: none;
+			float: left;
 		}
-		
+
 		nav li a {
+		  display: block;
+      padding: 8px;
+			color: black;
+			text-decoration: none;
 		}
-		
+
 		main{
 			border: 1px black solid;
 			background-color: rgba(200,200,255,0.3);
+			float: left;
+			width: 692px;
+			margin-left: 10px;
+			height: 426px;
+			padding-top: 10px;
 		}
-		
+
 		aside{
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
+			float: right;
+			width: 308px;
+			margin-right: 7px;
+			height: 426px;
+			padding-top: 10px;
 		}
-		
+
 		body article {
 			background-color: rgba(200,200,200,0.6);
 		}
-		
+
 		header {
 		}
-		
+
 		footer {
 			background-color: rgba(255,255,200,0.3);
+			text-align: center;
+			margin-right: 10px;
+			margin-left: 10px;
+
+
+
 		}
-	
+    div.flex-container {
+	    flex-direction: column;
+			width: 10px;
+
+    }
+    article{
+			height: 80px;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+    article.flex-item {
+			flex-direction: row;
+		}
